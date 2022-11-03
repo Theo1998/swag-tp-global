@@ -1,0 +1,11 @@
+%one_repo = (
+  'gitolite-admin' => {
+    'id_rsa_gl-adm' => [
+      [
+        1,
+        'RW+',
+        'refs/.*'
+      ]
+    ]
+  }
+);

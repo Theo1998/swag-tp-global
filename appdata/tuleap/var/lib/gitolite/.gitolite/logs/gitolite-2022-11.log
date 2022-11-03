@@ -1,0 +1,17 @@
+2022-11-03.14:06:00	204		system,git init --bare >&2
+2022-11-03.14:06:00	204		system,gitolite compile-template-data
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/commands/compile-template-data
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/triggers/post-compile/ssh-authkeys,POST_COMPILE
+2022-11-03.14:06:00	204	warn	/var/lib/gitolite/.ssh missing; creating a new one<<newline>>    (this is normal on a brand new install)
+2022-11-03.14:06:00	204	warn	/var/lib/gitolite/.ssh/authorized_keys missing; creating a new one<<newline>>    (this is normal on a brand new install)
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/triggers/post-compile/update-git-configs,POST_COMPILE
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/triggers/post-compile/update-gitweb-access-list,POST_COMPILE
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/commands/access,%,gitweb,R,any
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/commands/git-config,-r,%,gitweb\.
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/triggers/post-compile/update-git-daemon-access-list,POST_COMPILE
+2022-11-03.14:06:00	204		system,/usr/share/gitolite3/commands/access,%,daemon,R,any
+2022-11-03.14:06:01	204	END
+2022-11-03.14:06:01	482	ssh	ARGV=id_rsa_gl-adm	SOC=git-upload-pack 'gitolite-admin'	FROM=127.0.0.1
+2022-11-03.14:06:02	482	pre_git	gitolite-admin	id_rsa_gl-adm	R	any	refs/.*
+2022-11-03.14:06:02	482		system,git,shell,-c,git-upload-pack '/var/lib/gitolite/repositories/gitolite-admin.git'
+2022-11-03.14:06:02	482	END

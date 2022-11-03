@@ -1,0 +1,1 @@
+gitolite setup --pubkey /tmp/id_rsa_gl-adm.pub

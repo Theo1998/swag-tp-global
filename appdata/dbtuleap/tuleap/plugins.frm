@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=(select `tuleap`.`plugin`.`id` AS `plugin_id`,`tuleap`.`plugin`.`name` AS `plugin_name`,`tuleap`.`plugin`.`name` AS `plugin_desc` from `tuleap`.`plugin`)
+md5=62703caa6415f7cd20b2e69f1554f27d
+updatable=1
+algorithm=0
+definer_user=tuleapadm
+definer_host=%
+suid=2
+with_check_option=0
+timestamp=2022-11-03 14:06:23
+create-version=1
+source=(\n        SELECT id plugin_id,\n            name plugin_name,\n            name plugin_desc\n        FROM plugin\n        )
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_general_ci
+view_body_utf8=(select `tuleap`.`plugin`.`id` AS `plugin_id`,`tuleap`.`plugin`.`name` AS `plugin_name`,`tuleap`.`plugin`.`name` AS `plugin_desc` from `tuleap`.`plugin`)

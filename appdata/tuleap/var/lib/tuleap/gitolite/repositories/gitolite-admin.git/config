@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[user]
+	email = gitolite@tuleap.swag-tp.duckdns.org
+	name = gitolite on tuleap.swag-tp.duckdns.org
