@@ -1,0 +1,34 @@
+<------------------------------------------------->
+
+<------------------------------------------------->
+cronjob running on Sat Nov  5 02:08:32 CET 2022
+Running certbot renew
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing /etc/letsencrypt/renewal/swag-tp.duckdns.org.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Certificate not yet due for renewal
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The following certificates are not due for renewal yet:
+  /etc/letsencrypt/live/swag-tp.duckdns.org/fullchain.pem expires on 2023-02-01 (skipped)
+No renewals were attempted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+<------------------------------------------------->
+
+<------------------------------------------------->
+cronjob running on Wed Nov  9 02:08:00 CET 2022
+Running certbot renew
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing /etc/letsencrypt/renewal/swag-tp.duckdns.org.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Certificate not yet due for renewal
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The following certificates are not due for renewal yet:
+  /etc/letsencrypt/live/swag-tp.duckdns.org/fullchain.pem expires on 2023-02-01 (skipped)
+No renewals were attempted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

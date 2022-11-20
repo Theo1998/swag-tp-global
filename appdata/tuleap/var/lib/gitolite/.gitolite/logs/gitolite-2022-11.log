@@ -15,3 +15,15 @@
 2022-11-03.14:06:02	482	pre_git	gitolite-admin	id_rsa_gl-adm	R	any	refs/.*
 2022-11-03.14:06:02	482		system,git,shell,-c,git-upload-pack '/var/lib/gitolite/repositories/gitolite-admin.git'
 2022-11-03.14:06:02	482	END
+2022-11-04.03:54:47	2691	ssh	ARGV=id_rsa_gl-adm	SOC=git-receive-pack 'gitolite-admin'	FROM=127.0.0.1
+2022-11-04.03:54:49	2691	pre_git	gitolite-admin	id_rsa_gl-adm	W	any	refs/.*
+2022-11-04.03:54:49	2691		system,git,shell,-c,git-receive-pack '/var/lib/gitolite/repositories/gitolite-admin.git'
+2022-11-04.03:54:49	2691	END
+2022-11-09.01:15:55	81582	ssh	ARGV=id_rsa_gl-adm	SOC=git-receive-pack 'gitolite-admin'	FROM=127.0.0.1
+2022-11-09.01:15:55	81582	pre_git	gitolite-admin	id_rsa_gl-adm	W	any	refs/.*
+2022-11-09.01:15:55	81582		system,git,shell,-c,git-receive-pack '/var/lib/gitolite/repositories/gitolite-admin.git'
+2022-11-09.01:15:55	81582	END
+2022-11-10.03:44:14	46739	ssh	ARGV=id_rsa_gl-adm	SOC=git-receive-pack 'gitolite-admin'	FROM=127.0.0.1
+2022-11-10.05:44:12	46739	pre_git	gitolite-admin	id_rsa_gl-adm	W	any	refs/.*
+2022-11-10.05:44:12	46739		system,git,shell,-c,git-receive-pack '/var/lib/gitolite/repositories/gitolite-admin.git'
+2022-11-10.05:44:13	46739	END

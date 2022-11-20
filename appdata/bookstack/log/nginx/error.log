@@ -1,0 +1,64 @@
+2022/11/08 09:00:28 [error] 232#232: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /app/...PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Co
+2022/11/08 09:00:45 [error] 232#232: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /app/...PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Co
+2022/11/08 09:00:47 [error] 232#232: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /app/...PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Co
+2022/11/08 09:00:49 [error] 232#232: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1064): call_user_func()
+#6 /app/...PHP message: PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bookstack' in /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct()
+#1 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection()
+#2 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection()
+#3 /app/www/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect()
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 /app/www/vendor/laravel/framework/src/Illuminate/Database/Co
